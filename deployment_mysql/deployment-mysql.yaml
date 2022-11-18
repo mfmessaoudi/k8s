@@ -33,7 +33,7 @@ spec:
       volumes:
       - name: mysql-conf
         configMap:
-          name: configmap-secret  
+          name: configmap-mysql  
       - name: mysql-vol
         persistentVolumeClaim:
           claimName: pvc-mysql
